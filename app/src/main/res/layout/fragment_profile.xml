@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/profile_section"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                android:background="@drawable/rounded_stroke"
+                android:clickable="true"
+                android:focusable="true"
+                android:orientation="horizontal"
+                android:padding="12dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:id="@+id/iv_profile"
+                    android:layout_width="0dp"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.25"
+                    tools:src="@tools:sample/avatars" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.75"
+                    android:paddingHorizontal="12dp">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        style="@style/TextAppearance.MaterialComponents.Body1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nitin Sabale" />
+
+                    <TextView
+                        android:id="@+id/tv_phone"
+                        style="@style/TextAppearance.MaterialComponents.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_name"
+                        android:layout_marginTop="2dp"
+                        android:text="9876543210" />
+
+                    <TextView
+                        android:id="@+id/tv_email"
+                        style="@style/TextAppearance.MaterialComponents.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_phone"
+                        android:layout_marginTop="2dp"
+                        android:text="nitin@gmail.com" />
+
+                    <TextView
+                        android:id="@+id/tv_address"
+                        style="@style/TextAppearance.MaterialComponents.Caption"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_email"
+                        android:layout_marginTop="2dp"
+                        android:layout_toStartOf="@id/iv_edit"
+                        android:text="Ningapur Galli Khanapur, Belgaum, Karnataka" />
+
+                    <ImageView
+                        android:id="@+id/iv_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:src="@drawable/ic_baseline_edit" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_history"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_history"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward"
+                android:drawablePadding="16dp"
+                android:focusable="true"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="16dp"
+                android:text="History" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_change_password"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_remove_red_eye"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward"
+                android:drawablePadding="16dp"
+                android:focusable="true"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="16dp"
+                android:text="Change Password" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_about"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_about"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward"
+                android:drawablePadding="16dp"
+                android:focusable="true"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="16dp"
+                android:text="About" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/tv_logout"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:drawableStart="@drawable/ic_baseline_power_settings"
+                android:drawableEnd="@drawable/ic_baseline_arrow_forward"
+                android:drawablePadding="16dp"
+                android:focusable="true"
+                android:paddingHorizontal="24dp"
+                android:paddingVertical="16dp"
+                android:text="Logout" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="?colorPrimaryDark" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

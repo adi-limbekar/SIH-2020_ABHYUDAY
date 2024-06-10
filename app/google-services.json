@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "458297053274",
+    "firebase_url": "https://sih2020-abhyuday.firebaseio.com",
+    "project_id": "sih2020-abhyuday",
+    "storage_bucket": "sih2020-abhyuday.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:458297053274:android:1f806434d155d15a3dc863",
+        "android_client_info": {
+          "package_name": "com.sih2020.abhyuday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "458297053274-ars52j9a1004fe7lvj7oefbgmt279ivt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sih2020.abhyuday",
+            "certificate_hash": "c7dde312c5101d1c9bf5ab526fe24fa9c606e337"
+          }
+        },
+        {
+          "client_id": "458297053274-v37aa5aj6mv6vbq7lum7mhntejcov3bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB04FMDn6qBPH0FX8TWE_rWMCa2omvo9_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "458297053274-v37aa5aj6mv6vbq7lum7mhntejcov3bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

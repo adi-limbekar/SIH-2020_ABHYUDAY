@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">SIH2020_ABHUYDAY</string>
+
+
+    <!-- Strings for onboarding screen -->
+    <string name="first_slide_title">Welcome to Medical Emergency App</string>
+    <string name="second_slide_title">Tap for emergency</string>
+    <string name="third_slide_title">Store medical records</string>
+    <string name="fourth_slide_title">Get quick help</string>
+
+    <string name="first_slide_description"> Medical services and emergency aids that you can trust. This app will notify the consultant with an alert signal to provide you service.</string>
+    <string name="second_slide_description">Tap in here to automatically send you message to emergency contact and notify alert to health care authorities</string>
+    <string name="third_slide_description"> Set your personal information on your health and things that might affect your health</string>
+    <string name="fourth_slide_description">Get quick help from government and private officials</string>
+
+    <string name="lets_get_started">Lets get started</string>
+    <string name="next_btn">Next</string>
+    <string name="skip_btn">Skip</string>
+
+    <!-- backend api-->
+    <!--    <string name="GET_DATA">https://fjiz6enxh4.execute-api.ap-south-1.amazonaws.com/prod/SIH_BASIC</string>-->
+
+    <string name="GET_DATA">https://sa0dagwo06.execute-api.ap-south-1.amazonaws.com/prod/SIH_NEW_API_2</string>
+    <string name="API_KEY">QiUZ0QUGAn7cYqtelB3bv1h61biiFGaRY0AAbG10</string>
+
+    <!--  Main Activity  -->
+    <string name="headding">Med App</string>
+    <string name="profile">Update\nProfile</string>
+    <string name="emergencyContact">Emergency\nContact</string>
+    <string name="medicalHistory">Medical\nHistory</string>
+    <string name="emergency">Emergency\nAlert</string>
+
+    <string name="updates">Updates\non covid 19</string>
+    <string name="updatesDesc">Get the latest updates on Covid-19 pandemic</string>
+
+    <string name="youralerts">Your Alerts</string>
+    <string name="veiwRecentAlerts">Veiw your recent Alerts</string>
+
+
+    <string name="login_with_google">LOGIN WITH GOOGLE</string>
+
+
+    <!-- User profile update   -->
+    <string name="enter_age">Age</string>
+    <string name="enter_weight">Weight</string>
+    <string name="UserProfile1">USER\nDETAILS</string>
+    <string name="title_activity_tracker_maps">Map</string>
+
+
+</resources>

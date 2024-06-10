@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#B3020202</color>
+    <color name="colorAccent">#E6373535</color>
+    <color name="button">#FFEB3B</color>
+
+
+    <!--  Text colors  -->
+    <color name="textcolor">#E6373535</color>
+
+
+    <!-- Dash board colors -->
+    <!--    Body and background colors-->
+    <color name="home_background">#f2f5f8</color>
+    <color name="banner_background">#F1E9CE</color>
+    <color name="banner_background_light">#56F1E9CE</color>
+    <color name="banner_background_last">#D5E3B6</color>
+
+    <!--    Card colors-->
+    <color name="card1">#d4cbe5</color>
+    <color name="card2">#7adccf</color>
+    <color name="card3">#f7c59f</color>
+    <color name="card4">#b8d7f5</color>
+
+<!--    Ambulance Theme color palette-->
+    <color name="colorBlue900">#00577b</color>
+    <color name="colorBlue800">#00769b</color>
+    <color name="colorBlue700">#0087ae</color>
+    <color name="colorBlue600">#1399bf</color>
+    <color name="colorBlue500">#1fa7cc</color>
+    <color name="colorBlue400">#3db3d0</color>
+    <color name="colorBlue300">#5bc0d5</color>
+    <color name="colorBlue200">#85d2e0</color>
+    <color name="colorBlue100">#b4e4eb</color>
+    <color name="colorBlue50">#e1f5f7</color>
+
+    <color name="colorBlack87">#DE000000</color>
+    <color name="colorBlack60">#99000000</color>
+    <color name="colorBlack38">#61000000</color>
+    <color name="colorBlack90">#E6000000</color>
+
+    <color name="colorWhite100">#ffffff</color>
+    <color name="colorWhite60">#99FFFFFF</color>
+    <color name="colorWhite38">#61FFFFFF</color>
+    <color name="colorWhite90">#E6FFFFFF</color>
+
+    <color name="colorYellow900">#ff7200</color>
+    <color name="colorYellow800">#ff9400</color>
+    <color name="colorYellow700">#ffa500</color>
+    <color name="colorYellow600">#ffb900</color>
+    <color name="colorYellow500">#ffc700</color>
+    <color name="colorYellow400">#ffd00d</color>
+    <color name="colorYellow300">#ffda46</color>
+    <color name="colorYellow200">#ffe47e</color>
+    <color name="colorYellow100">#ffeeb1</color>
+    <color name="colorYellow50">#fff9e0</color>
+
+    <color name="colorRed500">#f44336</color>
+    <color name="colorDark">#1F000000</color>
+    <color name="colorSuccess">#1f7d47</color>
+    <color name="colorFail">#CB342F</color>
+    <color name="colorPending">#966200</color>
+</resources>

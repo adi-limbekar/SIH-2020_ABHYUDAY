@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AmbulanceTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorBlue800</item>
+        <item name="colorSecondary">@color/colorYellow400</item>
+        <item name="colorOnPrimary">@color/colorWhite100</item>
+        <item name="colorOnSecondary">@color/colorBlack87</item>
+        <item name="colorSurface">@color/colorWhite100</item>
+        <item name="colorOnSurface">@color/colorBlack87</item>
+        <item name="android:colorBackground">@color/colorWhite100</item>
+        <item name="colorOnBackground">@color/colorBlack90</item>
+        <item name="colorError">@color/colorRed500</item>
+        <item name="colorOnError">@color/colorWhite100</item>
+        <item name="colorPrimaryDark">@color/colorDark</item>
+        <item name="actionMenuTextColor">@color/colorWhite100</item>
+    </style>
+
+
+</resources>
